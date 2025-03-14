@@ -1,0 +1,5 @@
+abstra==2.23.2
+streamlit
+pandas
+sqlalchemy
+psycopg2
