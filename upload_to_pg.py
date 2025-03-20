@@ -56,4 +56,7 @@ if uploaded_file is not None:
                 df.to_sql(name='uploaded_data', con=engine, if_exists='append', index=False)
                 st.success(f"Data uploaded successfully to `{option}` database!")
     except Exception as e:
-        st.error(f"An error occurred: {e}")
+        
+
+
+st.write("You save your file to postgres")
