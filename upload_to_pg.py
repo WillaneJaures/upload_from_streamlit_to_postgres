@@ -59,5 +59,3 @@ if uploaded_file is not None:
         
 
 
-st.write("You save your file to postgres")
-st.title("lets try something")
